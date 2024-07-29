@@ -1,0 +1,49 @@
+#Month, #Year, th, td{
+    font-family: 'Segoe UI';
+}
+
+#MonthandYear{
+    display: flex;
+    flex-direction: row;
+    margin-left: 145px;
+}
+table{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+    margin: 0px;
+    width: 80px;
+    font-size: 15px;  
+}
+tr{
+    padding: 0px;
+    border: 1px solid black;
+    margin: 0px;
+}
+td{
+    border: 1px solid black;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0px;
+    font-size: 40px;
+    font:bold ;
+    height: 52px;
+       
+}
+#Month, #Year{
+ margin: 5px;
+ 
+}
+img{
+  width: 32px; 
+  height: 32px;
+  margin-top: 12px; 
+}
+#Month{
+    width: 160px;
+}
+td:hover{
+    border: 3px solid black;
+}
