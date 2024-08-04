@@ -235,7 +235,11 @@ Arrowright.onclick = Dateforward;
 
     for (let i = 0; i < cells.length; i++) {
 
-     cells[i].onclick = () => reserveDay(i)        
+    if (cells[i].innerHTML != "") {
+
+        cells[i].onclick = () => reserveDay(i)
+    }
+             
 }
 
 
